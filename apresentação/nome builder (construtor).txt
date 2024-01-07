@@ -1,0 +1,23 @@
+nome: builder (construtor)
+
+intenção: é usado pra construir objetos, mas sua diferença é que tenta usar o mesmo código de construção pra produzir diferentes objetos
+
+motivação: tenta impedir a formação de várias subclasses e o uso de grandes construtores, ele concentra a criação desses objetos em uma classe separada apenas para construir objetos(uma classe de construir objeto que vai obter todas as alternativas desse objeto)//criar um exemplo
+
+aplicabilidade: pode ser usado em casos em que podem haver várias subclasses o que causaria um grande desgaste ao criar uma nova classe e pra deixar maior organização no código ao separar uma classe apenas pra construir objetos vai ser mais fácil a aplicação e implementação de novos objetos personalizados, como por exemplo uma construtora que pode ter uma classe construtora pra todos os tipos de casas.
+
+estrutura: "diagramas"
+
+participantes: explicar o diagrama(classes, relacionamentos e metodos)
+
+colaborações: 
+
+consequencias: 
+
+implementações:
+
+exemplos de codigo: "mostrar o codigo"
+
+usos conhecidos: 
+
+padrões relacionados: 
